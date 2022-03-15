@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <math.h>
+/*
+2022.3，郝斌第一个c程序
+*/
+int main(void)
+{
+   /* 我的第一个 C 程序 */
+	int a = 1;
+	int b = 2;
+	int c = 3;
+	double delta;
+	double x1,x2;
+	
+	delta = b*b - 4*a*c;
+	
+	if (delta > 0)
+	{
+		x1 = (-b + sqrt(delta)) / (2*a);
+		x2 = (-b - sqrt(delta)) / (2*a);
+		printf("该一元二次方程有两个解，x1 = %f, x2 = %f\n", x1, x2);
+	}
+	else if (delta == 0)
+	{
+		x1 = (-b) / (2*a);
+		x2 = x1;
+		printf("该一元二次方程有一个唯一解, x1 = x2 = %f\n", x1, x2);
+	}
+	else
+	{
+		printf("无解\n");
+	}
+   //这里有换行，因为分功能了
+   return 0;
+}
