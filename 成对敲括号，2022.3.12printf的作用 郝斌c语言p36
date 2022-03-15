@@ -1,0 +1,37 @@
+#include <stdio.h>
+/*
+ 2022.3.12 成对敲括号，printf的作用 郝斌c语言p36
+ */
+int main () {
+	
+	if
+	{
+		
+	}
+		
+	if (sjja(kosq))
+	{
+		while(asj(ajs)iah)
+		{
+		}
+		i=5;
+		j=20;
+	}//成对敲括号
+	
+	if (shd(sdsj))
+	{
+		while(sdhjs)
+		{
+			sdjk
+		}
+	}
+	printf("hello https://tool.lu/\n");
+	printf("adkk");
+	printf("%d",j);
+	printf("%ld %x/n",j,k);
+	//1、printf("");
+	//2、printf("%d",j);
+	//3、printf("%d %d/n",j,k);
+	//4、printf（”I=%d,i”）
+	return 0;
+}
